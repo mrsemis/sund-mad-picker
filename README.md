@@ -1,1 +1,0 @@
-# sund-mad-picker

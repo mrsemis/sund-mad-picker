@@ -1,4 +1,3 @@
-// data.js
 const mealsData = {
   morgenmad: [
     {
@@ -54,7 +53,8 @@ const mealsData = {
       steps: [
         "Rist brødet.",
         "Mos avocado og smør på brødet.",
-        "Top med skiver af cherrytomater og krydr."
+        "Top med skiveskårne tomater.",
+        "Krydr med salt og peber."
       ]
     }
   ],
@@ -105,13 +105,14 @@ const mealsData = {
       name: "Quinoasalat med grøntsager",
       ingredients: [
         "1 dl kogt quinoa",
-        "Agurk, tomat, rødløg",
-        "Citron og lidt olivenolie"
+        "Agurk, peberfrugt, tomat",
+        "Frisk persille",
+        "Citron og olivenolie"
       ],
       steps: [
-        "Bland quinoa med hakkede grøntsager.",
-        "Tilsæt citron og olie.",
-        "Server kold."
+        "Bland quinoa og hakkede grøntsager.",
+        "Tilsæt persille, citron og olie.",
+        "Server frisk."
       ]
     }
   ],
@@ -160,17 +161,17 @@ const mealsData = {
       ]
     },
     {
-      name: "Grillet aubergine med tomatsauce",
+      name: "Vegetarisk lasagne med spinat",
       ingredients: [
-        "1 aubergine",
-        "Tomatsauce",
-        "Frisk basilikum",
-        "1 tsk olivenolie"
+        "Lasagneplader",
+        "Spinatsauce",
+        "Revet ost",
+        "Tomatsauce"
       ],
       steps: [
-        "Skær aubergine i skiver.",
-        "Grill eller steg dem med olie.",
-        "Server med varm tomatsauce og basilikum."
+        "Læg lag af lasagneplader, spinatsauce og tomatsauce.",
+        "Drys ost på toppen.",
+        "Bag i ovnen 30 min ved 180°C."
       ]
     }
   ],
@@ -178,12 +179,12 @@ const mealsData = {
     {
       name: "Grøntsagsstave med hummus",
       ingredients: ["Gulerødder, agurk, peberfrugt", "3 spsk hummus"],
-      steps: ["Skær grønt i stave.", "Dyp i hummus.", "Crunch-time"]
+      steps: ["Skær grønt i stave.", "Dyp i hummus.", "Crunch-time 🥕"]
     },
     {
       name: "Æble med peanutbutter",
       ingredients: ["1 æble", "1 teskefuld naturlig peanutbutter"],
-      steps: ["Skær æble i skiver.", "Dyp i peanutbutter.", "Enjoy"]
+      steps: ["Skær æble i skiver.", "Dyp i peanutbutter.", "Enjoy bro 🍎"]
     },
     {
       name: "Skyr med nødder og bær",
@@ -200,7 +201,7 @@ const mealsData = {
       steps: [
         "Mos avocado og smør på riskager.",
         "Krydr med salt og peber.",
-        "Spis med det samme."
+        "Spis og nyd!"
       ]
     }
   ]

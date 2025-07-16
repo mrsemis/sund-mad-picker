@@ -1,0 +1,123 @@
+body {
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+#buttons {
+  text-align: center;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+button {
+  background: rgba(255, 255, 255, 0.85); /* hvid og opak */
+  color: black;
+  border: none;
+  border-radius: 25px;
+  padding: 1.25rem 3rem;  /* større knap */
+  margin: 0.5rem;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+  user-select: none;
+
+  font-family: 'Poppins', sans-serif;  /* bedre font */
+  font-weight: 600;
+  font-size: 1.3rem;  /* større tekst */
+  letter-spacing: 0.05rem;
+}
+
+button:hover {
+  opacity: 1;
+  transform: scale(1.12);
+}
+
+
+button:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.meal-container {
+  display: grid;
+  /* Starter med 4 kolonner max, men kan udvide */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1300px;
+  justify-content: center; /* Center grid hvis færre elementer */
+}
+
+.meal-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 1rem;
+  opacity: 0.9;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s forwards;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  user-select: none;
+}
+
+.meal-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.3);
+}
+
+ul, ol {
+  padding-left: 1.2rem;
+}
+
+/* Fade-in and move up animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+}
+.clock {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(0, 0, 0, 0.5);
+  padding: 6px 12px;
+  border-radius: 10px;
+  user-select: none;
+  z-index: 999;
+}
+

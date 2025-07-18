@@ -57,6 +57,35 @@ const mealsData = {
         "Krydr med salt og peber."
       ]
     }
+    {
+  name: "Chiagrød med hindbær",
+  ingredients: [
+    "2 spsk chiafrø",
+    "1 dl mandelmælk",
+    "1 tsk honning",
+    "Håndfuld hindbær"
+  ],
+  steps: [
+    "Bland chiafrø, mandelmælk og honning.",
+    "Sæt i køleskab natten over.",
+    "Top med friske hindbær."
+  ]
+},
+{
+  name: "Protein smoothie bowl",
+  ingredients: [
+    "1/2 banan",
+    "1 dl skyr",
+    "1 håndfuld frosne bær",
+    "Lidt mandelmælk"
+  ],
+  steps: [
+    "Blend alt til en tyk smoothie.",
+    "Hæld i skål og pynt med frugt el. nødder.",
+    "Ske og chill 🍌"
+  ]
+}
+
   ],
   frokost: [
     {

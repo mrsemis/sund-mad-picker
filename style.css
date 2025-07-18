@@ -1,3 +1,4 @@
+
 body {
   background: black;
   color: white;
@@ -93,6 +94,11 @@ ul, ol {
   }
 }
 
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 12px;
@@ -107,7 +113,15 @@ ul, ol {
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   border: 3px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
 }
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Resten af din style.css fra før ... */
+
 .clock {
   position: fixed;
   top: 10px;

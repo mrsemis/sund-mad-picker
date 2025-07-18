@@ -57,12 +57,12 @@ button:hover {
 
 .meal-container {
   display: grid;
-  /* Starter med 4 kolonner max, men kan udvide */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;  /* mere luft mellem kort */
   width: 100%;
-  max-width: 1300px;
-  justify-content: center; /* Center grid hvis færre elementer */
+  max-width: 1400px;
+  justify-content: center;
+  padding-bottom: 3rem; /* luft til bunden når scroller */
 }
 
 .meal-card {

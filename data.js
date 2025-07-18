@@ -56,36 +56,35 @@ const mealsData = {
         "Top med skiveskårne tomater.",
         "Krydr med salt og peber."
       ]
-    }
+    },
     {
-  name: "Chiagrød med hindbær",
-  ingredients: [
-    "2 spsk chiafrø",
-    "1 dl mandelmælk",
-    "1 tsk honning",
-    "Håndfuld hindbær"
-  ],
-  steps: [
-    "Bland chiafrø, mandelmælk og honning.",
-    "Sæt i køleskab natten over.",
-    "Top med friske hindbær."
-  ]
-},
-{
-  name: "Protein smoothie bowl",
-  ingredients: [
-    "1/2 banan",
-    "1 dl skyr",
-    "1 håndfuld frosne bær",
-    "Lidt mandelmælk"
-  ],
-  steps: [
-    "Blend alt til en tyk smoothie.",
-    "Hæld i skål og pynt med frugt el. nødder.",
-    "Ske og chill 🍌"
-  ]
-}
-
+      name: "Chiagrød med hindbær",
+      ingredients: [
+        "2 spsk chiafrø",
+        "1 dl mandelmælk",
+        "1 tsk honning",
+        "Håndfuld hindbær"
+      ],
+      steps: [
+        "Bland chiafrø, mandelmælk og honning.",
+        "Sæt i køleskab natten over.",
+        "Top med friske hindbær."
+      ]
+    },
+    {
+      name: "Protein smoothie bowl",
+      ingredients: [
+        "1/2 banan",
+        "1 dl skyr",
+        "1 håndfuld frosne bær",
+        "Lidt mandelmælk"
+      ],
+      steps: [
+        "Blend alt til en tyk smoothie.",
+        "Hæld i skål og pynt med frugt el. nødder.",
+        "Ske og chill 🍌"
+      ]
+    }
   ],
   frokost: [
     {
@@ -142,6 +141,33 @@ const mealsData = {
         "Bland quinoa og hakkede grøntsager.",
         "Tilsæt persille, citron og olie.",
         "Server frisk."
+      ]
+    },
+    {
+      name: "Let bønnesalat med majs",
+      ingredients: [
+        "1 dl kogte hvide bønner",
+        "1/2 dl majs",
+        "Tomat, agurk og rødløg",
+        "1 tsk citronsaft"
+      ],
+      steps: [
+        "Mix alle ingredienser i en skål.",
+        "Smag til med citron.",
+        "Server kold og frisk."
+      ]
+    },
+    {
+      name: "Wrap med hummus og grønt",
+      ingredients: [
+        "1 fuldkornstortilla",
+        "2 spsk hummus",
+        "Salat, agurk, revet gulerod"
+      ],
+      steps: [
+        "Smør hummus på tortilla.",
+        "Top med grønt og rul den tight.",
+        "Perfekt to-go 🌯"
       ]
     }
   ],
@@ -202,6 +228,33 @@ const mealsData = {
         "Drys ost på toppen.",
         "Bag i ovnen 30 min ved 180°C."
       ]
+    },
+    {
+      name: "Blomkålsris med grønt og æg",
+      ingredients: [
+        "1 dl blomkålsris",
+        "1 æg",
+        "Grøntsager: peberfrugt, forårsløg, ærter",
+        "1 tsk soja"
+      ],
+      steps: [
+        "Steg grøntsager og blomkålsris kort.",
+        "Røræg i midten af panden.",
+        "Mix det hele og dryp soja på."
+      ]
+    },
+    {
+      name: "Bagt sød kartoffel med kikærter",
+      ingredients: [
+        "1 lille sød kartoffel",
+        "1/2 dl kogte kikærter",
+        "Spidskål og dressing (skyr + citron)"
+      ],
+      steps: [
+        "Bag kartoflen 25 min ved 200°C.",
+        "Top med kikærter og kål.",
+        "Dryp med dressing."
+      ]
     }
   ],
   snack: [
@@ -231,6 +284,28 @@ const mealsData = {
         "Mos avocado og smør på riskager.",
         "Krydr med salt og peber.",
         "Spis og nyd!"
+      ]
+    },
+    {
+      name: "Frosne druer",
+      ingredients: ["En håndfuld druer"],
+      steps: [
+        "Put druerne i fryseren i 2+ timer.",
+        "Spis som sunde is-slik 🍇",
+        "Nice og crispy!"
+      ]
+    },
+    {
+      name: "Mini skyr-is",
+      ingredients: [
+        "Skyr naturel",
+        "Lidt vaniljepulver",
+        "Blendede bær"
+      ],
+      steps: [
+        "Mix det hele sammen.",
+        "Hæld i små forme og frys.",
+        "Tag op når du craver noget sweet 😋"
       ]
     }
   ]

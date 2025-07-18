@@ -12,7 +12,6 @@ function showMeals(type) {
   const meals = mealsData[type];
   if (!meals) return;
 
-  // Play click sound on show
   playSound();
 
   meals.forEach((meal, i) => {
@@ -48,7 +47,6 @@ function showMeals(type) {
     card.appendChild(stepTitle);
     card.appendChild(stepList);
 
-    // Animation delay så de popper lidt efter hinanden
     card.style.animationDelay = `${i * 0.1}s`;
 
     mealContainer.appendChild(card);
@@ -65,7 +63,6 @@ function updateClock() {
   const clock = document.getElementById("clock");
   if (!clock) return;
 
-  // Danmarkstid: CET eller CEST, baseret på browserens locale og tidszone offset
   const options = {
     timeZone: "Europe/Copenhagen",
     hour: "2-digit",
@@ -78,4 +75,4 @@ function updateClock() {
 }
 
 setInterval(updateClock, 1000);
-updateClock(); // kald med det samme
+updateClock();

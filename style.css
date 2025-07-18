@@ -8,6 +8,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  scroll-behavior: smooth; /* smooth scrolling, men ikke snap */
+  scroll-snap-type: none;  /* sørg for der ikke er snap */
 }
 
 h1 {
